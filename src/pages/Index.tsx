@@ -1,5 +1,6 @@
 import SignInForm from "@/components/SignInForm";
 import RoleSelector from "@/components/RoleSelector";
+import tutLogo from "@/assets/tut_logo.webp";
 
 const Index = () => {
   return (
@@ -7,10 +8,20 @@ const Index = () => {
       <div className="w-full max-w-6xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-12 animate-fade-in">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Student Portal
+          <div className="flex justify-center mb-6">
+            <img 
+              src={tutLogo} 
+              alt="Tshwane University of Technology" 
+              className="h-24 md:h-32 w-auto"
+            />
+          </div>
+          <h1 className="text-5xl md:text-6xl font-bold mb-3 bg-gradient-primary bg-clip-text text-transparent">
+            CampusTime
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl font-semibold text-foreground mb-4">
+            Smarter Scheduling, Better Balance
+          </p>
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             Access your academic resources and administrative tools in one secure platform
           </p>
         </div>
@@ -46,7 +57,7 @@ const Index = () => {
 
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-muted-foreground animate-fade-in">
-          <p>Secure access to your educational platform</p>
+          <p>© 2025 Tshwane University of Technology - We empower people</p>
         </div>
       </div>
     </div>
