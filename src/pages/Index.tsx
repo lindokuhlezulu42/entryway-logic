@@ -16,7 +16,7 @@ const Index = () => {
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-3 bg-gradient-primary bg-clip-text text-transparent">
-            CampusTime
+            e-LibraryLog
           </h1>
           <p className="text-xl md:text-2xl font-semibold text-foreground mb-4">
             Smarter Scheduling, Better Balance
