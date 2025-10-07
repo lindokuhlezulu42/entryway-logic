@@ -8,7 +8,7 @@ const Index = () => {
       <div className="w-full max-w-6xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-12 animate-fade-in">
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-3">
             <img 
               src={tutLogo} 
               alt="Tshwane University of Technology" 
