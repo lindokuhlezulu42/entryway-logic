@@ -1,6 +1,6 @@
 import SignInForm from "@/components/SignInForm";
 import RoleSelector from "@/components/RoleSelector";
-import tutLogo from "@/assets/tut_logo.webp";
+import tutLogo from "@/assets/TUT.png";
 
 const Index = () => {
   return (
@@ -20,9 +20,6 @@ const Index = () => {
           </h1>
           <p className="text-xl md:text-2xl font-semibold text-foreground mb-4">
             Smarter Scheduling, Better Balance
-          </p>
-          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Access your academic resources and administrative tools in one secure platform
           </p>
         </div>
 
