@@ -1,4 +1,4 @@
-import { AlertTriangle, LayoutDashboard, FileText } from "lucide-react";
+import { AlertTriangle, LayoutDashboard, FileText, Calendar } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import {
   Sidebar,
@@ -14,6 +14,7 @@ import {
 
 const items = [
   { title: "Dashboard", url: "/admin", icon: LayoutDashboard },
+  { title: "Schedule", url: "/admin/schedule", icon: Calendar },
   { title: "Report Disruption", url: "/admin/report-disruption", icon: AlertTriangle },
   { title: "View Reports", url: "/admin/reports", icon: FileText },
 ];

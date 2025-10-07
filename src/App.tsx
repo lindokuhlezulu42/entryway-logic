@@ -9,6 +9,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import AdminHome from "./pages/AdminHome";
 import ReportDisruption from "./pages/ReportDisruption";
 import ViewReports from "./pages/ViewReports";
+import Schedule from "./pages/Schedule";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/admin" element={<AdminDashboard />}>
             <Route index element={<AdminHome />} />
+            <Route path="schedule" element={<Schedule />} />
             <Route path="report-disruption" element={<ReportDisruption />} />
             <Route path="reports" element={<ViewReports />} />
           </Route>
